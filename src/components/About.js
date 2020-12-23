@@ -19,23 +19,21 @@ function About () {
             <div>
                 <h2> Programming Languages &amp; Tools</h2>
                     <p>
-                        <span class = "icon" title = 'HTML 5' data-tooltip = "HTML 5"><i class="fab fa-html5"></i></span>{" "}
-                        <span class = "icon" title = 'CSS' data-tooltip = 'CSS'><i class="fab fa-css3"></i></span>{" "}
-                        <span class = "icon" title = 'JavaScript' data-tooltip = 'JavaScript'><i class="fab fa-js"></i></span>{" "}
-                        <span class = "icon" title = 'Node.js' data-tooltip = 'Node.js'><i class="fab fa-node-js"></i></span>{" "}
-                        <span class = "icon" title = 'npm' data-tooltip = 'npm'><i class="fab fa-npm"></i></span>{" "}
-                        <span class = "icon" title = 'Express.js' data-tooltip = 'Express.js' style={{fontSize: "25px", fontFamily: "helvetica neue,open sans,sans-serif"}}>ex</span>{" "}
-                        <span class = "icon" title = 'SQL' data-tooltip = 'SQL'><img width="20px" height="20px" src = "https://image.flaticon.com/icons/png/512/29/29165.png" alt =""/></span>{" "}
-                        <span hidden class = "icon" title = 'React' data-tooltip = 'React'><i class="fab fa-react"></i></span>
+                        <span className = "icon" title = 'HTML 5' data-tooltip = "HTML 5"><i className="fab fa-html5"></i></span>{" "}
+                        <span className = "icon" title = 'CSS' data-tooltip = 'CSS'><i className="fab fa-css3"></i></span>{" "}
+                        <span className = "icon" title = 'JavaScript' data-tooltip = 'JavaScript'><i className="fab fa-js"></i></span>{" "}
+                        <span className = "icon" title = 'Node.js' data-tooltip = 'Node.js'><i className="fab fa-node-js"></i></span>{" "}
+                        <span className = "icon" title = 'npm' data-tooltip = 'npm'><i className="fab fa-npm"></i></span>{" "}
+                        <span className = "icon" title = 'Express.js' data-tooltip = 'Express.js' style={{fontFamily: "helvetica neue,open sans,sans-serif"}}>ex</span>{" "}
+                        <span className = "icon" title = 'SQL' data-tooltip = 'SQL'><i className="fas fa-database"></i></span>{" "}
+                        <span className = "icon" title = 'React' data-tooltip = 'React'><i className="fab fa-react"></i></span>
                     </p>
                     <h2>Work Flow</h2>
-                    <p>
-                        <ul>
-                            <li>GitHub Projects and Issues / Atlassian Gitflow</li>
-                            <li>Agile</li>
-                            <li>Microsoft Project</li>
-                        </ul>
-                    </p>
+                    <ul>
+                        <li>GitHub Projects and Issues / Atlassian Gitflow</li>
+                        <li>Agile</li>
+                        <li>Microsoft Project</li>
+                    </ul>
             </div>
         </section>
     );
