@@ -3,6 +3,8 @@
         "id": 1,
         "title": "Week In View",
         "image": "https://kpehl.github.io/assets/images/week-in-view.png",
+        "description": "An app to plan your week and beyond.",
+        "tools": "MySQL/Sequelize / Express.js / Express Sessions / Passport / JavaScript/jQuery / Handlebars.",
         "gitLink": "https://github.com/kpehl/week-in-view",
         "deployedLink": "https://rocky-mountain-95430.herokuapp.com/"
     },
@@ -10,6 +12,8 @@
         "id": 2,
         "title": "Cook Something Good",
         "image": "https://kpehl.github.io/assets/images/cook-something-good-screenshot.png",
+        "description": "An app to search for and save recipes with a customizable shopping list.",
+        "tools": "JavaScript/jQuery / AJAX / Bulma / HTML / CSS.",
         "gitLink": "https://github.com/kpehl/ucf-project-1",
         "deployedLink": "https://kpehl.github.io/ucf-project-1/"
     }

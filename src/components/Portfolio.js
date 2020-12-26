@@ -9,9 +9,9 @@ function Portfolio () {
     return (
         <div className="portfolio">
             <h2 id="portfolio">My Portfolio</h2>
-            <div className="projects flex-row">
+            <div className="projects">
                 {projectList.map((project) => (
-                    <Project project={project} />
+                    <Project project={project} key={project.id} />
                 ))}
             </div>
         </div>
