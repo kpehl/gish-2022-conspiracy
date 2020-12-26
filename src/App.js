@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   const [sections] = useState(['About Me', 'Portfolio', 'Contact', 'Resume'])
@@ -13,7 +14,7 @@ function App() {
       <main>
         {(currentSection === 'About Me') ? <About />
         : (currentSection === 'Portfolio') ? <Portfolio />
-        : (currentSection === 'Contact') ? <About />
+        : (currentSection === 'Contact') ? <Contact />
         : (currentSection === 'Resume') ? <About />
         : <About />}
       </main>

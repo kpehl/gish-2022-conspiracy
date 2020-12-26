@@ -193,6 +193,22 @@ textarea {
   font-style: italic;
 }
 
+.contact-info {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contact-column > p {
+  font-size: small;
+}
+
+.contact-info-item > a {
+  font-size: small;
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -297,10 +313,10 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+  background: var(--senary);
+  color: var(--primary);
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
