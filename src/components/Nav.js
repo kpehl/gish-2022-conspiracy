@@ -10,26 +10,23 @@ function Nav(props) {
         document.title = 'Kathleen Pehl - ' + currentSection
     }, [currentSection]);
     return (
-        <header>
-            <h2><a href = "/">Home</a></h2>
-            <nav>
-                <ul className="flex-row">
-                {sections.map((section) => (
-                    <li className={`mx-2 ${
-                        currentSection === section && 'navActive'
-                        }`} key={section}>
-                    <span
-                        onClick={() => {
-                        setCurrentSection(section)
-                        }}
-                    >
-                        {section}
-                    </span>
-                    </li>
-                ))}
-                </ul>
-            </nav>
-        </header>
+        <nav>
+            <ul className="flex-row">
+            {sections.map((section) => (
+                <li className={`mx-2 ${
+                    currentSection === section && 'navActive'
+                    }`} key={section}>
+                <span
+                    onClick={() => {
+                    setCurrentSection(section)
+                    }}
+                >
+                    {section}
+                </span>
+                </li>
+            ))}
+            </ul>
+        </nav>
     );
 }
 

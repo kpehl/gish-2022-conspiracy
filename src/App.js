@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
+import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -11,7 +12,9 @@ function App() {
   const[currentSection, setCurrentSection] = useState(sections[0]);
   return (
     <div>
-      <Nav sections={sections} setCurrentSection={setCurrentSection} currentSection={currentSection} />
+      <Header>
+        <Nav sections={sections} setCurrentSection={setCurrentSection} currentSection={currentSection} />
+      </Header>
       <main>
         {(currentSection === 'About Me') ? <About />
         : (currentSection === 'Portfolio') ? <Portfolio />
