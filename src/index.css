@@ -96,13 +96,22 @@ a:hover {
   color: var(--primary);
 }
 
-/* header {
-  background: var(--dark);
-} */
+.header {
+  background: var(--senary);
+  top: 0;
+  opacity: 0.9;
+}
 
-/* header a {
-  color: var(--light);
-} */
+.header > h2 > a {
+  color: var(--secondary);
+}
+
+.hero {
+  background-image: url(./assets/cherryblossoms.jpg);
+  background-size: cover;
+  background-position: 70%;
+  padding: 150px;
+}
 
 button {
   font-size: 1rem;
