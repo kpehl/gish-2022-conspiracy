@@ -5,7 +5,8 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Footer from './components/Footer'
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [sections] = useState(['About Me', 'Portfolio', 'Contact', 'Resume'])
@@ -19,7 +20,7 @@ function App() {
         {(currentSection === 'About Me') ? <About />
         : (currentSection === 'Portfolio') ? <Portfolio />
         : (currentSection === 'Contact') ? <Contact />
-        : (currentSection === 'Resume') ? <About />
+        : (currentSection === 'Resume') ? <Resume />
         : <About />}
       </main>
       <Footer />
