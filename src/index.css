@@ -202,6 +202,10 @@ textarea {
   font-style: italic;
 }
 
+.card-text {
+  color: var(--primary);
+}
+
 .contact-info, .skills {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
