@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.bc4f23be.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.627ddab6.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.627ddab6.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7148bb05.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7148bb05.js.map",
+    "static/js/2.dfefb725.chunk.js": "/react-portfolio/static/js/2.dfefb725.chunk.js",
+    "static/js/2.dfefb725.chunk.js.map": "/react-portfolio/static/js/2.dfefb725.chunk.js.map",
+    "static/js/3.c50a4916.chunk.js": "/react-portfolio/static/js/3.c50a4916.chunk.js",
+    "static/js/3.c50a4916.chunk.js.map": "/react-portfolio/static/js/3.c50a4916.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.bc4f23be.chunk.css.map": "/react-portfolio/static/css/main.bc4f23be.chunk.css.map",
+    "static/js/2.dfefb725.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.dfefb725.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-portfolio/static/media/cherryblossoms.04538e56.jpg",
+    "static/media/profile-picture.d6f01781.jpg": "/react-portfolio/static/media/profile-picture.d6f01781.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7148bb05.js",
+    "static/js/2.dfefb725.chunk.js",
+    "static/css/main.bc4f23be.chunk.css",
+    "static/js/main.627ddab6.chunk.js"
+  ]
+}
