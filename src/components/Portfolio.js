@@ -9,7 +9,7 @@ function Portfolio () {
     return (
         <div className="portfolio">
             <h2 id="portfolio">My Portfolio</h2>
-            <div className="projects">
+            <div className="projects row">
                 {projectList.map((project) => (
                     <Project project={project} key={project.id} />
                 ))}

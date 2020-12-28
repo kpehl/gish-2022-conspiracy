@@ -17,20 +17,24 @@ import Card from 'react-bootstrap/Card';
 
 function Project (props) {
     return (
-        <Card style={{ width: '45rem' }}>
-            <Card.Img variant="top" src={props.project.image} alt={props.project.title} />
-            <Card.Body>
-                <Card.Title>{props.project.title}</Card.Title>
-                <Card.Text>
-                    <p>{props.project.description}</p>
-                    <p>{props.project.tools}</p>                    
-                </Card.Text>
-            </Card.Body>
-            <Card.Body>
-                <Card.Link href={props.project.gitLink} target="_blank" rel="noreferrer">GitHub Repository</Card.Link>
-                <Card.Link href={props.project.deployedLink} target="_blank" rel="noreferrer">Deployed Application</Card.Link>
-            </Card.Body>
-        </Card>
+        <div className="col-sm-6 mt-3">
+            <Card className="w-100 h-100">
+                <Card.Img variant="top" src={props.project.image} alt={props.project.title} />
+                <Card.Body>
+                    <Card.Title>{props.project.title}</Card.Title>
+                    <Card.Text>
+                        {props.project.description}                 
+                    </Card.Text>
+                    <Card.Text>
+                        {props.project.tools}
+                    </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <Card.Link href={props.project.gitLink} target="_blank" rel="noreferrer">GitHub Repository</Card.Link>
+                    <Card.Link href={props.project.deployedLink} target="_blank" rel="noreferrer">Deployed Application</Card.Link>
+                </Card.Footer>
+            </Card>
+        </div>
     );
 }
 

@@ -184,23 +184,23 @@ textarea {
   font-weight: 500;
 }
 
-.projects {
+/* .projects {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 20px;
   grid-auto-flow: dense;
   grid-template-columns: 1fr 1fr;
-}
+} */
 
-.project > img {
+/* .project > img {
   max-width: 80%;
   max-height: 60%;
-}
+} */
 
-.project > p {
+/* .project > p {
   font-size: small;
   font-style: italic;
-}
+} */
 
 .card-text {
   color: var(--primary);
