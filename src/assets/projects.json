@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Week In View",
         "image": "https://kpehl.github.io/assets/images/week-in-view.png",
-        "description": "An app to plan your week and beyond.",
+        "description": "An app to plan your week and beyond. A calendar, to-do list, and weather dashboard.",
         "tools": "MySQL/Sequelize / Express.js / Express Sessions / Passport / JavaScript/jQuery / Handlebars.",
         "gitLink": "https://github.com/kpehl/week-in-view",
         "deployedLink": "https://rocky-mountain-95430.herokuapp.com/"
@@ -12,10 +12,46 @@
         "id": 2,
         "title": "Cook Something Good",
         "image": "https://kpehl.github.io/assets/images/cook-something-good-screenshot.png",
-        "description": "An app to search for and save recipes with a customizable shopping list.",
+        "description": "An app to search for and save recipes to local storage with a customizable shopping list.",
         "tools": "JavaScript/jQuery / AJAX / Bulma / HTML / CSS.",
         "gitLink": "https://github.com/kpehl/ucf-project-1",
         "deployedLink": "https://kpehl.github.io/ucf-project-1/"
+    },
+    {
+        "id": 3,
+        "title": "MVC Tech Blog",
+        "image": "https://kpehl.github.io/assets/images/MVCTechBlogScreenshot.png",
+        "description": "A blog application for multiple users built with an MVC framework.",
+        "tools": "JavaScript / Express.js / MySQL / Sequelize / Handlebars.",
+        "gitLink": "https://github.com/kpehl/mvc-tech-blog",
+        "deployedLink": "https://warm-river-26748.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "title": "Employee Tracker",
+        "image": "https://kpehl.github.io/assets/images/employee-tracker-screenshot.png",
+        "description": "A command line interface (CLI) application that allows a user to manage a simple employee database.",
+        "tools": "JavaScript / Node / MySQL / npm inquirer package.",
+        "gitLink": "https://github.com/kpehl/employee-tracker",
+        "deployedLink": "https://drive.google.com/file/d/1zWe5JVtP7T3O9wgVRLueiWIjdx1YStLc/view"
+    },
+    {
+        "id": 5,
+        "title": "Note Taker",
+        "image": "https://kpehl.github.io/assets/images/Note-Taker-Screenshot.png",
+        "description": "A simple note application that allows a user to write, edit, and delete notes using an Express server.",
+        "tools": "JavaScript/ Node / Express.js / HTML / CSS.",
+        "gitLink": "https://github.com/kpehl/note-taker",
+        "deployedLink": "https://thawing-sands-67516.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "title": "Work Day Scheduler",
+        "image": "https://kpehl.github.io/assets/images/workdayscheduler.png",
+        "description": "A scheduling app, allowing a user to plan their day, storing events in local storage.",
+        "tools": "JavaScript / jQuery / AJAX / Web APIs / HTML / CSS.",
+        "gitLink": "https://github.com/kpehl/work-day-scheduler",
+        "deployedLink": "https://kpehl.github.io/work-day-scheduler/"
     }
   ]
   
