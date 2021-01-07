@@ -85,15 +85,20 @@ p {
 }
 
 a {
+	border-radius: 5px;
   color: var(--senary);
   text-decoration: none;
-  font-weight: bold;
+	font-weight: 600;
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;	
 }
 
 a:hover {
   text-decoration: underline;
   background: var(--quinary);
   color: var(--primary);
+  transition: all 0.3s ease-in-out;
 }
 
 .header {
@@ -110,7 +115,7 @@ a:hover {
   background-image: url(./assets/cherryblossoms.jpg);
   background-size: cover;
   background-position: 70%;
-  padding: 150px;
+  padding: 125px;
 }
 
 button {
@@ -123,6 +128,7 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  color: var(--primary)
 }
 
 button:hover {
@@ -143,7 +149,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 100%;
 }
 
 input {
@@ -184,42 +190,17 @@ textarea {
   font-weight: 500;
 }
 
-/* .projects {
-  display: grid;
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 20px;
-  grid-auto-flow: dense;
-  grid-template-columns: 1fr 1fr;
-} */
-
-/* .project > img {
-  max-width: 80%;
-  max-height: 60%;
-} */
-
-/* .project > p {
-  font-size: small;
-  font-style: italic;
-} */
-
 .card-text {
   color: var(--primary);
 }
 
-.contact-info, .skills {
+.skills {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
-  grid-gap: 20px;
+  gap: 20px;
   grid-auto-flow: dense;
   grid-template-columns: 1fr 2fr;
-}
-
-.contact-column > p {
-  font-size: small;
-}
-
-.contact-info-item > a {
-  font-size: small;
+  align-content: flex-start;
 }
 
 .resume {
@@ -333,28 +314,6 @@ textarea {
 	margin-bottom: 25px;
 }
 
-button {
-  background: var(--senary);
-  color: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
-}
-
-a {
-	border-radius: 5px;
-	color: var(--senary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
-}
-
 .navActive {
   color: var(--secondary);
 }
@@ -418,4 +377,183 @@ a {
 [data-tooltip]:hover:after {
   visibility: visible;
   opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-bottom: 130px;
+}
+
+.contact .info {
+  padding: 30px;
+  background: var(--secondary);
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-info-item {
+  padding: 1.2rem;
+  margin: 1rem;
+}
+
+.info .contact-info-item i {
+  font-size: 1.4rem;
+  color: var(--tertiary);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--senary);
+}
+
+.info .contact-info-item:hover i {
+  background: var(--primary);
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: var(--secondary);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color:  rgb(78, 5, 5);
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background:  rgb(78, 5, 5);
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: var(--quaternary);
+  color: var(--light);
+  border: 0;
+  padding: 10px 24px;
+  transition: 0.4s;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: var(--senary);
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.error-text {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(78, 5, 5);
+  font-size: 24px;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
