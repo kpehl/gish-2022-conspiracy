@@ -56,7 +56,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-column col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form className="php-email-form" /*onSubmit={handleSubmit}*/ action="../utils/contact.php" method="post">
+                    <form className="php-email-form" /*onSubmit={handleSubmit}*/ action="https://formspree.io/f/mbjpwyva" method="post">
                         <div className="row">
                             <div className="form-group">
                                 <label htmlFor="name">Your Name</label>
