@@ -12,7 +12,7 @@ function About () {
                     spent close to two decades working as an aerospace engineer, primarily in systems design, and did some coding in MATLAB, Visual Basic, 
                     Python, and C++ to help with various tasks and projects. I am currently versed in JavaScript (ES5 and ES6), jQuery, Web APIs and AJAX, 
                     Node and several common npm packages, Express.js, MySQL, SQLite3, and object relational mapping with Sequelize, MongoDB and Mongoose, 
-                    MVC frameworks, React, HTML, CSS, handlebars templating, CSS frameworks such as Bootstrap and Bulma, using Object Oriented Design and 
+                    MVC frameworks, React, Redux, HTML, CSS, handlebars templating, CSS frameworks such as Bootstrap and Bulma, using Object Oriented Design and 
                     Test Driven Design methodologies, responsive and mobile first design, and designing for accessibility. I look forward to bringing my 
                     coding skills, systems level thinking, and work ethic to your projects!</p>
             </div>

@@ -1,6 +1,7 @@
 // Contact Form Component
 import React, {useState} from 'react';
 import {validateEmail} from '../utils/helpers';
+import { contact } from '../utils/helpers'
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: ''});
@@ -55,7 +56,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact-column col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form className="php-email-form" onSubmit={handleSubmit}>
+                    <form className="php-email-form" /*onSubmit={handleSubmit}*/ action="../utils/contact.php" method="post">
                         <div className="row">
                             <div className="form-group">
                                 <label htmlFor="name">Your Name</label>
@@ -119,7 +120,7 @@ function Contact() {
                         </div>
                         <div className="row">
                             <div>
-                                <button type="submit">Send Message</button>
+                                <button type='submit'>Submit Message</button>
                             </div>
                         </div>
                     </form>

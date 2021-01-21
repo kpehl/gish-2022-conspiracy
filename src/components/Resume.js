@@ -18,6 +18,8 @@ function Resume () {
                         <li>jQuery</li>
                         <li>Web APIs</li>
                         <li>Handlebars templating</li>
+                        <li>React framework</li>
+                        <li>Redux</li>
                     </ul>
                 </div>
                 <div>
@@ -43,7 +45,6 @@ function Resume () {
                                 <li>Website auditing</li>
                             </ul>
                         </li>
-                        <li>React framework</li>
                     </ul>
                 </div>
 
