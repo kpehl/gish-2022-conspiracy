@@ -382,12 +382,30 @@ textarea {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.projects .card .card-title {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects .card .card-text {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects a {
+  opacity: 0;
+  text-decoration: underline;
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+}
+
 .projects .card:hover img {
   opacity: 0.15;
 }
 
 .projects .card:hover .card-title {
   opacity: 1;
+  color: var(--primary);
 }
 
 .projects .card:hover .card-text {
@@ -396,24 +414,6 @@ textarea {
 
 .projects .card:hover a {
   opacity: 1;
-}
-
-.projects .card .card-title {
-  opacity: 0;
-}
-
-.projects .card .card-text {
-  opacity: 0;
-}
-
-.projects a {
-  opacity: 0;
-  text-decoration: underline;
-  transition: all 0.3s ease-in-out;
-}
-
-.projects .card-title, .card-text, a {
-  color: var(--primary);
 }
 
 /*--------------------------------------------------------------
