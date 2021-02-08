@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "title": "React Retreat",
+        "image": "https://kpehl.github.io/assets/images/react-retreat-screenshot.png",
+        "description": "A fictional luxury hotel website where users can register and make reservations, and administrators can manage bookings and users.",
+        "tools": "MongoDB / Mongoose / Express.js / React / Redux / Node.js / JSON Web Tokens / JavaScript/jQuery / Stripe.",
+        "gitLink": "https://github.com/kpehl/react-retreat",
+        "deployedLink": "https://react-retreat.herokuapp.com/"
+    },
+    {
+        "id": 2,
         "title": "Week In View",
         "image": "https://kpehl.github.io/assets/images/week-in-view.png",
         "description": "An app to plan your week and beyond. A calendar, to-do list, and weather dashboard.",
@@ -9,7 +18,7 @@
         "deployedLink": "https://rocky-mountain-95430.herokuapp.com/"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Cook Something Good",
         "image": "https://kpehl.github.io/assets/images/cook-something-good-screenshot.png",
         "description": "An app to search for and save recipes to local storage with a customizable shopping list.",
@@ -18,7 +27,7 @@
         "deployedLink": "https://kpehl.github.io/ucf-project-1/"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "MVC Tech Blog",
         "image": "https://kpehl.github.io/assets/images/MVCTechBlogScreenshot.png",
         "description": "A blog application for multiple users built with an MVC framework.",
@@ -27,22 +36,13 @@
         "deployedLink": "https://warm-river-26748.herokuapp.com/"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Employee Tracker",
         "image": "https://kpehl.github.io/assets/images/employee-tracker-screenshot.png",
         "description": "A command line interface (CLI) application that allows a user to manage a simple employee database.",
         "tools": "JavaScript / Node / MySQL / npm inquirer package.",
         "gitLink": "https://github.com/kpehl/employee-tracker",
         "deployedLink": "https://drive.google.com/file/d/1zWe5JVtP7T3O9wgVRLueiWIjdx1YStLc/view"
-    },
-    {
-        "id": 5,
-        "title": "Note Taker",
-        "image": "https://kpehl.github.io/assets/images/Note-Taker-Screenshot.png",
-        "description": "A simple note application that allows a user to write, edit, and delete notes using an Express server.",
-        "tools": "JavaScript/ Node / Express.js / HTML / CSS.",
-        "gitLink": "https://github.com/kpehl/note-taker",
-        "deployedLink": "https://thawing-sands-67516.herokuapp.com/"
     },
     {
         "id": 6,

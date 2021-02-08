@@ -380,6 +380,42 @@ textarea {
 }
 
 /*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.projects .card:hover img {
+  opacity: 0.15;
+}
+
+.projects .card:hover .card-title {
+  opacity: 1;
+}
+
+.projects .card:hover .card-text {
+  opacity: 1;
+}
+
+.projects .card:hover a {
+  opacity: 1;
+}
+
+.projects .card .card-title {
+  opacity: 0;
+}
+
+.projects .card .card-text {
+  opacity: 0;
+}
+
+.projects a {
+  opacity: 0;
+  text-decoration: underline;
+}
+
+.projects .card-title, .card-text, a {
+  color: var(--primary);
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
@@ -431,6 +467,7 @@ textarea {
 .info .contact-info-item:hover i {
   background: var(--primary);
   color: #fff;
+  font-size: 1.75rem;
 }
 
 .contact .php-email-form {
