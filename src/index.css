@@ -92,13 +92,13 @@ a {
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;	
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
   background: var(--quinary);
   color: var(--primary);
-  transition: all 0.3s ease-in-out;
 }
 
 .header {
@@ -409,6 +409,7 @@ textarea {
 .projects a {
   opacity: 0;
   text-decoration: underline;
+  transition: all 0.3s ease-in-out;
 }
 
 .projects .card-title, .card-text, a {
@@ -468,6 +469,16 @@ textarea {
   background: var(--primary);
   color: #fff;
   font-size: 1.75rem;
+}
+
+.info .contact-info-item a {
+  color: var(--senary);
+  transition: all 0.3s ease-in-out;
+}
+
+.info .contact-info-item:hover a {
+  color: var(--primary);
+  background-color: var(--senary);
 }
 
 .contact .php-email-form {
