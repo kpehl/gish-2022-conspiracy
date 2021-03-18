@@ -12,9 +12,9 @@ function About () {
                     spent close to two decades working as an aerospace engineer, primarily in systems design, and did some coding in MATLAB, Visual Basic, 
                     Python, and C++ to help with various tasks and projects. I am currently versed in JavaScript (ES5 and ES6), jQuery, Web APIs and AJAX, 
                     Node and several common npm packages, Express.js, MySQL, SQLite3, and object relational mapping with Sequelize, MongoDB and Mongoose, 
-                    MVC frameworks, React, Redux, HTML, CSS, handlebars templating, CSS frameworks such as Bootstrap and Bulma, using Object Oriented Design and 
-                    Test Driven Design methodologies, responsive and mobile first design, and designing for accessibility. I look forward to bringing my 
-                    coding skills, systems level thinking, and work ethic to your projects!</p>
+                    GraphQL, MVC frameworks, React, Redux, Amazon Web Services, HTML, CSS, handlebars templating, CSS frameworks such as Bootstrap and Bulma, 
+                    using Object Oriented Design and Test Driven Design methodologies, responsive and mobile first design, and designing for accessibility. 
+                    I look forward to bringing my coding skills, systems level thinking, and work ethic to your projects!</p>
             </div>
             <div>
                 <h2> Programming Languages &amp; Tools</h2>
@@ -26,7 +26,9 @@ function About () {
                         <span className = "icon" title = 'npm' data-tooltip = 'npm'><i className="fab fa-npm"></i></span>{" "}
                         <span className = "icon" title = 'Express.js' data-tooltip = 'Express.js' style={{fontFamily: "helvetica neue,open sans,sans-serif"}}>ex</span>{" "}
                         <span className = "icon" title = 'SQL' data-tooltip = 'SQL'><i className="fas fa-database"></i></span>{" "}
-                        <span className = "icon" title = 'React' data-tooltip = 'React'><i className="fab fa-react"></i></span>
+                        <span className = "icon" title = 'React' data-tooltip = 'React'><i className="fab fa-react"></i></span>{" "}
+                        <span className = "icon" title = 'Python' data-tooltip = 'Python'><i className="fab fa-python"></i></span>
+                        <span className = "icon" title = 'AWS' data-tooltip = 'Amazon Web Services'><i class="fab fa-aws"></i></span>
                     </p>
                     <h2>Work Flow</h2>
                     <ul>

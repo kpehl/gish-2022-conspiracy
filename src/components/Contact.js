@@ -1,7 +1,7 @@
 // Contact Form Component
 import React, {useState} from 'react';
 import {validateEmail} from '../utils/helpers';
-import { contact } from '../utils/helpers'
+// import { contact } from '../utils/helpers'
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: ''});
@@ -26,10 +26,10 @@ function Contact() {
             setFormState({...formState, [event.target.name]: event.target.value });
         }
     }
-    function handleSubmit(event) {
-        event.preventDefault();
-        console.log(formState);
-    }
+    // function handleSubmit(event) {
+    //     event.preventDefault();
+    //     console.log(formState);
+    // }
     return (
         <section id="contact" className="contact">
             <div className="container">

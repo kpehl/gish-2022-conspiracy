@@ -99,6 +99,7 @@ a:hover {
   text-decoration: underline;
   background: var(--quinary);
   color: var(--primary);
+  font-size: large;
 }
 
 .header {
@@ -109,6 +110,15 @@ a:hover {
 
 .header > h2 > a {
   color: var(--secondary);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.header > h2 > a:hover {
+  color: var(--primary);
+  background: var(--senary);
+  text-decoration: underline;
+  font-size: xx-large;
 }
 
 .hero {
@@ -176,6 +186,12 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+nav  li:hover {
+  font-size: large;
+  color: var(--primary);
 }
 
 textarea {
@@ -415,6 +431,22 @@ textarea {
 .projects .card:hover a {
   opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+  .projects .card .card-title, .projects .card .card-text, .projects .card a {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects .card .card-title, .projects .card .card-text, .projects .card a {
+    font-size: 0.5rem;
+  }
+  .projects .card .card-text {
+    display: none;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Contact
