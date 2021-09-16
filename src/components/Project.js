@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 function Project (props) {
     return (
-        <div className="col-sm-6 mt-3">
+        <div className="m-3">
             <Card className="w-100 h-100">
                 <Card.Img src={props.project.image} alt={props.project.title} />
                 <Card.ImgOverlay>
