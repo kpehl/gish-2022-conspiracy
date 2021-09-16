@@ -10,15 +10,13 @@ This project converts my portfolio from HTML and CSS (https://kpehl.github.io/) 
 * React
 * HTML
 * CSS
-  * Bootstrap
+* Bootstrap
 
 ## Deployed Application
 
 The portfolio can be viewed at https://kpehl.github.io/react-portfolio/ 
 
 ## Notes
-
-The contact form is not functional at this point - it only locally logs the user input.  In coming weeks, it will be turned into a functional form for people to contact me.
 
 ## Screenshot
 

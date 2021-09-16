@@ -23,16 +23,19 @@ function Resume () {
                         <li>jQuery</li>
                         <li>Web APIs</li>
                         <li>Handlebars templating</li>
-                        <li>React framework</li>
+                        <li>React</li>
                         <li>Redux</li>
+                        <li>Vue</li>
                     </ul>
                 </div>
                 <div>
                     <h4>Back End Proficiencies</h4>
                     <ul>
                         <li>JavaScript (ES5 and ES6)</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
                         <li>Node.js</li>
-                        <li>Object Oriented Programming paradigm</li>
+                        <li>Object Oriented Programming paradigms</li>
                         <li>Express.js</li>
                         <li>SQL
                             <ul>
@@ -43,7 +46,7 @@ function Resume () {
                         </li>
                         <li>Model-View-Controller paradigm</li>
                         <li>MongoDB and Mongoose</li>
-                        <li>Progressive Web Application paradigm
+                        <li>Progressive Web Application paradigms
                             <ul>
                                 <li>Offline functionality with service workers</li>
                                 <li>Modularization and optimization of code and assets</li>
