@@ -1,14 +1,20 @@
-import React from 'react'
-import profilePicture from '../assets/profile-picture.jpg';
-import {Animated} from 'react-animated-css';
+import { React } from 'react';
+// Two other ways of importing the image
+// import profilePicture from '../assets/images/profile-picture.jpg';
+// import Images from '../assets/Images';
+import { Animated } from 'react-animated-css';
 
 function About ({isVisible}) {
+    const imgSrc = require('../assets/images/profile-picture.jpg').default;
     return (
         <section className="my-5">
             <div>
                 <div>
                     <h2 id="about">About me</h2>
-                    <img src={profilePicture} className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" />
+                    {/* <img src={profilePicture} className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" /> */}
+                    {/* <img src={Images.profilePicture.default} className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" /> */}
+                    {/* <img src={require('../assets/images/profile-picture.jpg').default } className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" /> */}
+                    <img src={ imgSrc } className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" />
                     <p>My name is Kathleen Pehl, and I am a full stack web developer. I created my first basic HTML web page in 1999 
                         while studying engineering at the University of Colorado at Boulder, and ever since I have been tinkering with web design. I 
                         spent close to two decades working as an aerospace engineer, primarily in systems design, and did some coding in MATLAB, Visual Basic, 
