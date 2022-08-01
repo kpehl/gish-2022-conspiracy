@@ -3,7 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
+import Evidence from './components/Evidence';
 import Contact from './components/Contact';
 import GISH from './components/GISH';
 import Footer from './components/Footer';
@@ -18,7 +19,7 @@ function App() {
       </Header>
       <main>
         {(currentSection === 'About Cats') ? <About />
-        : (currentSection === 'The Evidence') ? <Portfolio />
+        : (currentSection === 'The Evidence') ? <Evidence />
         : (currentSection === 'Contact') ? <Contact />
         : (currentSection === 'GISH') ? <GISH />
         : <About />}
