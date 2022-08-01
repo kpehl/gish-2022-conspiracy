@@ -26,10 +26,13 @@ function Contact() {
             setFormState({...formState, [event.target.name]: event.target.value });
         }
     }
-    // function handleSubmit(event) {
-    //     event.preventDefault();
-    //     console.log(formState);
-    // }
+    function handleSubmit(event) {
+        event.preventDefault();
+        console.log(formState);
+        alert('What, are you serious trying to contact us? The cats are watching our every move. Contact your local humane society instead to adopt a fuzzy overlord.')
+    }
+
+
     return (
         <section id="contact" className="contact">
             <div className="container">
@@ -39,27 +42,21 @@ function Contact() {
                     <div className = "info">
                         <div className="contact-info-item">
                             <span className="icon"><i className="fas fa-map-marker-alt"></i></span>
-                            <p>Location: Fleming Island, Florida 32003</p>
+                            <p>Location: Earth</p>
                         </div>
                         <div className="contact-info-item">
-                            <span className="icon"><i className="fas fa-mobile-alt"></i></span>{" "} <p><a href="tel:+14259536252">(425) 953-6252</a></p>
+                            <span className="icon"><i className="fas fa-mobile-alt"></i></span>{" "} <p>The cats are always listening! Don't call.</p>
                         </div>
                         <div className="contact-info-item">
-                            <span className="icon"><i className="far fa-envelope"></i></span>{" "}<p><a href="mailto:kathleen.pehl@gmail.com">kathleen.pehl@gmail.com</a></p>
-                        </div>
-                        <div className="contact-info-item">
-                            <span className="icon"><i className="fab fa-linkedin"></i></span>{" "}<p><a href="https://www.linkedin.com/in/kathleen-pehl-77bb1710" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
-                        </div>
-                        <div className="contact-info-item">
-                            <span className="icon"><i className="fab fa-github"></i></span>{" "}<p><a href="https://github.com/kpehl"  target="_blank" rel="noreferrer">GitHub Profile</a></p>
+                            <span className="icon"><i className="far fa-envelope"></i></span>{" "}<p>The cats can probably read. Don't email.</p>
                         </div>
                     </div>
                 </div>
                 <div className="contact-column col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form className="php-email-form" /*onSubmit={handleSubmit}*/ action="https://formspree.io/f/mbjpwyva" method="post">
+                    <form className="php-email-form" onSubmit={handleSubmit}>
                         <div className="row">
                             <div className="form-group">
-                                <label htmlFor="name">Your Name</label>
+                                <label htmlFor="name">Your Alias</label>
                                 <input
                                 type="text"
                                 name="name"
@@ -71,7 +68,7 @@ function Contact() {
                                 <div className="validate"></div>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="name">Your Email</label>
+                                <label htmlFor="name">Your Fake Email</label>
                                 <input
                                 type="email"
                                 name="email"

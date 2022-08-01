@@ -6,54 +6,47 @@ import { Animated } from 'react-animated-css';
 
 function About ({isVisible}) {
     const imgSrc = require('../assets/images/profile-picture.jpg').default;
+    const liquidCat1 = require('../assets/images/liquid-cat-1.jpg').default;
+    const selfPropelled1 = require('../assets/images/self-propelled-1.gif').default;
     return (
         <section className="my-5">
             <div>
                 <div>
-                    <h2 id="about">About me</h2>
-                    {/* <img src={profilePicture} className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" /> */}
-                    {/* <img src={Images.profilePicture.default} className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" /> */}
-                    {/* <img src={require('../assets/images/profile-picture.jpg').default } className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" /> */}
+                    <h2 id="about">About Cats</h2>
                     <img src={ imgSrc } className="my-2" style={{ width: "20%"}} alt="Kathleen next to a tree" />
-                    <p>My name is Kathleen Pehl, and I am a full stack web developer. I created my first basic HTML web page in 1999 
-                        while studying engineering at the University of Colorado at Boulder, and ever since I have been tinkering with web design. I 
-                        spent close to two decades working as an aerospace engineer, primarily in systems design, and did some coding in MATLAB, Visual Basic, 
-                        Python, and C++ to help with various tasks and projects. I am currently versed in JavaScript (ES5 and ES6), jQuery, Web APIs and AJAX, 
-                        Node/Node.js and several common npm packages, Express.js, MySQL, SQLite3, and object relational mapping with Sequelize, MongoDB and Mongoose, php, 
-                        axios, GraphQL, Laravel, MVC frameworks, React, Redux, Vue, Amazon Web Services, HTML, CSS, handlebars templating, CSS frameworks such as Bootstrap and Bulma, 
-                        using Object Oriented Design, Functional Programming, and Test Driven Design methodologies, responsive and mobile first design, and designing for accessibility. 
-                        I look forward to bringing my coding skills, systems level thinking, and work ethic to your projects!</p>
+                    <p>Cats only pretend to have bones. They are in fact a sentient (occasionally malicious) liquid! Observing cats for any period of time makes this abundantly clear. In 2017, Marc-Antoin Fardin, a researcher of rheology at Université Paris Diderot - USPC, took home the Ig Nobel Prize for his work on the fluid nature of cats(<a href="https://theconversation.com/answering-the-question-that-won-me-the-ig-nobel-prize-are-cats-liquid-86589" target="_blank" rel="noreferrer">Reference Article, The Conversation</a>), and yet, still!, the world has not awakened to these duplicitous fuzzy creatures.</p>
+                    <p>Veterinarians have tried to prove that cats are in fact solid, and have bones like other mammals. Indeed x-ray examinations seem to show skeletal structure, but this is a lie! Cats modify their internal structure to create the appearance and function of bones whenever they are required, but it is crystal clear that they cannot possibly actually have skeletons.</p>
                 </div>
             </div>
             <div>
                 <Animated animationIn="bounceInRight" animationInDuration={1750} animationOutDuration={1000} animationOut="fadeOut" animationInDelay={1250} isVisible={isVisible}>
                     <div>
-                        <h2> Programming Languages &amp; Tools</h2>
-                        <p>
-                            <span className = "icon" title = 'HTML 5' data-tooltip = "HTML 5"><i className="fab fa-html5"></i></span>{" "}
-                            <span className = "icon" title = 'CSS' data-tooltip = 'CSS'><i className="fab fa-css3"></i></span>{" "}
-                            <span className = "icon" title = 'JavaScript' data-tooltip = 'JavaScript'><i className="fab fa-js"></i></span>{" "}
-                            <span className = "icon" title = 'Node.js' data-tooltip = 'Node.js'><i className="fab fa-node-js"></i></span>{" "}
-                            <span className = "icon" title = 'php' data-tooltip = 'php'><i className="fab fa-php"></i></span>{" "}
-                            <span className = "icon" title = "Laravel" data-tooltip = 'Laravel'><i className="fab fa-laravel"></i></span>{" "}
-                            <span className = "icon" title = 'npm' data-tooltip = 'npm'><i className="fab fa-npm"></i></span>{" "}
-                            <span className = "icon" title = 'Express.js' data-tooltip = 'Express.js' style={{fontFamily: "helvetica neue,open sans,sans-serif"}}>ex</span>{" "}
-                            <span className = "icon" title = 'SQL' data-tooltip = 'SQL'><i className="fas fa-database"></i></span>{" "}
-                            <span className = "icon" title = 'React' data-tooltip = 'React'><i className="fab fa-react"></i></span>{" "}
-                            <span className = "icon" title = 'Vue' data-tooltip = 'Vue'><i className="fab fa-vuejs"></i></span>{" "}
-                            <span className = "icon" title = 'Python' data-tooltip = 'Python'><i className="fab fa-python"></i></span>{" "}
-                            <span className = "icon" title = 'AWS' data-tooltip = 'Amazon Web Services'><i className="fab fa-aws"></i></span>{" "}
-                            <span className = "icon" title = 'GitHub' data-tooltip = 'GitHub'><i className="fab fa-github-square"></i></span>
-                        </p>
-                        <h2>Work Flow</h2>
+                        <h2>Liquid State of Matter</h2>
+                        <p>Liquids are defined traditionally as materials that adapt their shape to fill a container. There are myriad examples of images and videos to be found on the internet showing cats taking on the shape of their chosen container.</p>
                         <ul>
-                            <li>GitHub Projects and Issues / Atlassian Gitflow</li>
-                            <li>Agile</li>
-                            <li>Jira</li>
-                    <li>Microsoft Project</li>
+                            <li>
+                                <img src={ liquidCat1 } alt="Liquid Cat Case 1" />
+                                <span><a href="https://www.reddit.com/r/funny/comments/6jgadx/my_friends_cat_climbed_into_a_plastic_flower/" target="_blank" rel="noreferrer">citizen_collective</a></span>
+                            </li>
+                            <li>Another</li>
+                            <li>Another one still</li>
                         </ul>
                     </div>
                 </Animated>
+                <Animated animationIn="bounceInRight" animationInDuration={1750} animationOutDuration={1000} animationOut="fadeOut" animationInDelay={1250} isVisible={isVisible}>
+                    <div>
+                        <h2>Self-Propelled</h2>
+                        <p>As sentient beings, cats do not just fill a stationary container, they also flow under and around objects at will!</p>
+                        <ul>
+                            <li>
+                                <img src={ selfPropelled1 } alt="Self Propelled Liquid Cat Case 1" />
+                                <span><a href="https://www.reddit.com/r/funny/comments/6jgadx/my_friends_cat_climbed_into_a_plastic_flower/" target="_blank" rel="noreferrer">citizen_collective</a></span>
+                            </li>
+                            <li>Another</li>
+                            <li>Another one still</li>
+                        </ul>
+                    </div>
+                </Animated>                
             </div>
         </section>
     );
