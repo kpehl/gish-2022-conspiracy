@@ -1,8 +1,8 @@
-# React Portfolio
+# GISH August 2022, Item 59
 
 ## Project Description
 
-This project converts my portfolio from HTML and CSS (https://kpehl.github.io/) to a portfolio built with the React framework (https://kpehl.github.io/react-portfolio/)
+Thanks to whistleblower Kendrick Smith, we all know that [birds aren't real](https://birdsarentreal.com/). But that's not all They have been lying to us about. Dragonflies are surveillance micro-drones! There's only one mushroom in the entire world, connected through an underground, wifi-enabled mushroom network… and it's listening to us! Octopi are aliens! Build a website that uncovers the Truth that is out there on a specific conspiracy that the world was previously unaware of. Submit a screenshot of the site and send us a link to your website in the comments.
 
 ## Tools Used
 
@@ -14,10 +14,7 @@ This project converts my portfolio from HTML and CSS (https://kpehl.github.io/) 
 
 ## Deployed Application
 
-The portfolio can be viewed at https://kpehl.github.io/react-portfolio/ 
+The application can be viewed at: https://kpehl.github.io/gish-2022-conspiracy/
 
 ## Notes
-
-## Screenshot
-
-![screenshot](./react-portfolio.png)
+[GISH (Greatest International Scavenger Hunt)](https://www.gish.com/) is an annual, week-long game experience where teams compete, or just have a blast completing wacky tasks that challenge your creativity and aim to do good around the world.

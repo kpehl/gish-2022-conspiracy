@@ -5,11 +5,11 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
+import GISH from './components/GISH';
 import Footer from './components/Footer';
 
 function App() {
-  const [sections] = useState(['About Me', 'Portfolio', 'Contact', 'Resume'])
+  const [sections] = useState(['About Cats', 'The Evidence', 'Contact', 'GISH'])
   const[currentSection, setCurrentSection] = useState(sections[0]);
   return (
     <div>
@@ -17,10 +17,10 @@ function App() {
         <Nav sections={sections} setCurrentSection={setCurrentSection} currentSection={currentSection} />
       </Header>
       <main>
-        {(currentSection === 'About Me') ? <About />
-        : (currentSection === 'Portfolio') ? <Portfolio />
+        {(currentSection === 'About Cats') ? <About />
+        : (currentSection === 'The Evidence') ? <Portfolio />
         : (currentSection === 'Contact') ? <Contact />
-        : (currentSection === 'Resume') ? <Resume />
+        : (currentSection === 'GISH') ? <GISH />
         : <About />}
       </main>
       <Footer />

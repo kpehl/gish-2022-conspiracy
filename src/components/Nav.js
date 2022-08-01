@@ -7,7 +7,7 @@ function Nav(props) {
         currentSection
     } = props;
     useEffect(() => {
-        document.title = 'Kathleen Pehl - ' + currentSection
+        document.title = 'Cats Are Boneless - ' + currentSection
     }, [currentSection]);
     return (
         <nav>
