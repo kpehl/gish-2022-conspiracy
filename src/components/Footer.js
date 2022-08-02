@@ -1,10 +1,11 @@
 import React from 'react';
 
 function Footer () {
+    const waywyrdLogo = require('../assets/images/waywyrd-logo.webp').default;
     return (
         <footer>
             <div className="copyright">
-                <p>Copyright &copy; Team Waywyrd, GISH 2022 Hunt {(new Date().getFullYear())}</p>
+                <p>Copyright &copy; {(new Date().getFullYear())}, Team Waywyrd <img src={ waywyrdLogo } style={{maxHeight: '30px' }} alt="Team Waywyrd Logo" /></p>
             </div>
         </footer>
     )

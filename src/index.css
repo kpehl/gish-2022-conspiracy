@@ -122,10 +122,12 @@ a:hover {
 }
 
 .hero {
-  background-image: url(./assets/images/cherryblossoms.jpg);
+  /* background-image: url(./assets/images/cherryblossoms.jpg); */
+  background-image: url(./assets/images/charlie-deets-TKgOIwPVmkg-unsplash.jpg);
   background-size: cover;
-  background-position: 70%;
-  padding: 125px;
+  background-position: bottom;
+  padding: 200px;
+  /* Photo by <a href="https://unsplash.com/@charliedeets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Charlie Deets</a> on <a href="https://unsplash.com/s/photos/cat-in-a-container?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 }
 
 .small {

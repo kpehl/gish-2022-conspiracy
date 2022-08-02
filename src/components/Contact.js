@@ -28,7 +28,7 @@ function Contact() {
     }
     function handleSubmit(event) {
         event.preventDefault();
-        console.log(formState);
+        // console.log(formState);
         alert('What, are you serious trying to contact us? The cats are watching our every move. Contact your local humane society instead to adopt a fuzzy overlord.')
     }
 
@@ -36,7 +36,7 @@ function Contact() {
     return (
         <section id="contact" className="contact">
             <div className="container">
-            <h1>Contact me</h1>
+            <h1>Contact us</h1>
             <div className="contact-info row">
                 <div className = "contact-column col-lg-5 d-flex align-items-stretch">
                     <div className = "info">
