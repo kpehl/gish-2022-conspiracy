@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/gish-2022-conspiracy/static/css/main.740b0e47.chunk.css",
-    "main.js": "/gish-2022-conspiracy/static/js/main.8f4cf1b4.chunk.js",
-    "main.js.map": "/gish-2022-conspiracy/static/js/main.8f4cf1b4.chunk.js.map",
-    "runtime-main.js": "/gish-2022-conspiracy/static/js/runtime-main.ed6d695b.js",
-    "runtime-main.js.map": "/gish-2022-conspiracy/static/js/runtime-main.ed6d695b.js.map",
+    "main.css": "/gish-2022-conspiracy/static/css/main.b65895a2.chunk.css",
+    "main.js": "/gish-2022-conspiracy/static/js/main.19a40637.chunk.js",
+    "main.js.map": "/gish-2022-conspiracy/static/js/main.19a40637.chunk.js.map",
+    "runtime-main.js": "/gish-2022-conspiracy/static/js/runtime-main.cafde573.js",
+    "runtime-main.js.map": "/gish-2022-conspiracy/static/js/runtime-main.cafde573.js.map",
     "static/js/2.09b4028e.chunk.js": "/gish-2022-conspiracy/static/js/2.09b4028e.chunk.js",
     "static/js/2.09b4028e.chunk.js.map": "/gish-2022-conspiracy/static/js/2.09b4028e.chunk.js.map",
-    "static/js/3.13b118c9.chunk.js": "/gish-2022-conspiracy/static/js/3.13b118c9.chunk.js",
-    "static/js/3.13b118c9.chunk.js.map": "/gish-2022-conspiracy/static/js/3.13b118c9.chunk.js.map",
+    "static/js/3.e1e544f6.chunk.js": "/gish-2022-conspiracy/static/js/3.e1e544f6.chunk.js",
+    "static/js/3.e1e544f6.chunk.js.map": "/gish-2022-conspiracy/static/js/3.e1e544f6.chunk.js.map",
     "index.html": "/gish-2022-conspiracy/index.html",
-    "static/css/main.740b0e47.chunk.css.map": "/gish-2022-conspiracy/static/css/main.740b0e47.chunk.css.map",
+    "static/css/main.b65895a2.chunk.css.map": "/gish-2022-conspiracy/static/css/main.b65895a2.chunk.css.map",
     "static/js/2.09b4028e.chunk.js.LICENSE.txt": "/gish-2022-conspiracy/static/js/2.09b4028e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/gish-2022-conspiracy/static/media/cherryblossoms.04538e56.jpg",
+    "static/media/index.css": "/gish-2022-conspiracy/static/media/charlie-deets-TKgOIwPVmkg-unsplash.f07ea9ef.jpg",
     "static/media/gish-blue-1.png": "/gish-2022-conspiracy/static/media/gish-blue-1.222551ff.png",
     "static/media/liquid-cat-1.jpg": "/gish-2022-conspiracy/static/media/liquid-cat-1.7a1b384d.jpg",
     "static/media/liquid-cat-2.jpg": "/gish-2022-conspiracy/static/media/liquid-cat-2.9709ac71.jpg",
     "static/media/liquid-cat-3.jpg": "/gish-2022-conspiracy/static/media/liquid-cat-3.1d455a76.jpg",
     "static/media/self-propelled-1.gif": "/gish-2022-conspiracy/static/media/self-propelled-1.44564647.gif",
-    "static/media/self-propelled-2.gif": "/gish-2022-conspiracy/static/media/self-propelled-2.3cee818f.gif"
+    "static/media/self-propelled-2.gif": "/gish-2022-conspiracy/static/media/self-propelled-2.3cee818f.gif",
+    "static/media/waywyrd-logo.webp": "/gish-2022-conspiracy/static/media/waywyrd-logo.b8f990ee.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed6d695b.js",
+    "static/js/runtime-main.cafde573.js",
     "static/js/2.09b4028e.chunk.js",
-    "static/css/main.740b0e47.chunk.css",
-    "static/js/main.8f4cf1b4.chunk.js"
+    "static/css/main.b65895a2.chunk.css",
+    "static/js/main.19a40637.chunk.js"
   ]
 }
